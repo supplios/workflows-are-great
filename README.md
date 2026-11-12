@@ -8,13 +8,15 @@ Workflows are at the core of the Supplios platform, so we want to see how you th
 
 1. **How you approach a problem.** What you model, what you leave out, and what you ask about.
 2. **How you make decisions.** Which options you saw, which one you picked, and why.
-3. **How you work with AI.** What you ask it for, what you accept, what you push back on, and how you check its work.
+3. **How you work with AI.** What tools you use, what you ask it for, what you accept, what you push back on, and how you check its work.
 
-We expect you to use AI coding tools for this, the same way you would on the job. That means a working solution on its own tells us very little, and a rough solution with clear thinking behind it tells us a lot.
+We expect you to use AI coding tools for this, the same way you would on the job.  (and the same way we iterated on this take-home challenge!) That means a working solution on its own tells us very little, and a rough solution with clear thinking behind it tells us a lot.
+
+(You may also decide not to use AI coding tools for this, but honestly, that wasn't what we had in mind, and it isn't how we work on a daily basis.  And if you hand-code this, it's probably going to take much more time than we expected.)
 
 You may well finish with a solution you are not fully happy with. That is fine, and it is useful: tell us what you do not like about it and what you would change. We would much rather read that than have it hidden.
 
-One rule: you own everything you submit. "The AI wrote it that way" is a fair description of how the code got there, but it is not a reason for the code to stay that way.
+One rule: you are responsible for everything you submit. "The AI wrote it that way" is a fair description of how the code got there, but it is not a reason for the code to stay that way.
 
 ## The process
 
@@ -24,7 +26,7 @@ One rule: you own everything you submit. "The AI wrote it that way" is a fair de
 | 2 | **Build your solution**, using whatever AI tools you normally work with. | Plan for 1 to 2 hours. See [The challenge](#the-challenge). |
 | 3 | **Keep two records as you go**: your AI transcript and a short decision log. | See [What to submit](#what-to-submit). These matter as much as the code. |
 | 4 | **Submit** the code and both records. | See [How to submit](#how-to-submit). |
-| 5 | **Come in for a follow-up session.** You bring your laptop to our office (or share your screen if we are doing this remotely), walk us through your solution, and make some changes to it with us. | See [The follow-up session](#the-follow-up-session). |
+| 5 | **Come in for a face-to-face interview & follow-up session.** You bring your laptop to our office (or share your screen if we are doing this remotely), walk us through your solution, and make some changes to it with us.  We'll combine this with a normal face-to-face interview, so 2 birds, 1 stone. | See [The follow-up session](#the-follow-up-session). |
 
 If you run out of time in step 2, stop. Write down what is missing and what you would do next. An unfinished solution with an honest note is a perfectly good submission.
 
@@ -38,7 +40,7 @@ So the software problem has two halves. How do you describe a process like that?
 
 Build a small workflow engine, and use it to run the supplier onboarding process described below.
 
-There is no UI and no web API. A script, a command-line program, or a set of tests that runs the [scenarios](#scenarios) and prints what happened is all we need.
+There is no requirement for a UI or web API. (but fine if you added them)  A script, a command-line program, or a set of tests that runs the [scenarios](#scenarios) and prints what happened is all we need.
 
 ### The process to model: supplier onboarding
 
@@ -153,7 +155,7 @@ Add two scenarios of your own: the two cases you think are most likely to break 
 
 ### Out of scope
 
-- A user interface or a web API.
+- A user interface or a web API (although including them is totally fine)
 - A real database. Keeping everything in memory is fine, though we may ask you what you would store and how.
 - Real authentication, real emails, deployment.
 - Production-level error handling and performance.
@@ -164,7 +166,7 @@ Three things. The second and third matter as much as the first.
 
 ### 1. The code
 
-- Any language you like. Python is slightly preferred, since that is what our backend is written in.
+- Any language you like. Python is slightly preferred, since that is what our backend is written in.  Typescript would be next most preferred.  Then probably FORTRAN. (that's a joke)
 - Short instructions for running it, ideally one command that runs all the scenarios.
 - Tests are welcome if they are how you would naturally check your work. They are not required.
 
